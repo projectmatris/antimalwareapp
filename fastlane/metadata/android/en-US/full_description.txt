@@ -1,0 +1,15 @@
+LibreAV is an attempt to detect malware in Android devices by utilising machine learning approach.
+
+Features:
+
+* Real time scan - Automatically scan new app installations
+* On device inference - Zero network traffic
+* Open-source - The source code is distributed under GNU GPLv3
+* Lightweight antivirus - Do not consume too much resources
+* 100% free and No ads - We do not charge any fee or sell ads
+
+Source Code:
+
+The source code is available at the following GitHub repository:
+[https://github.com/projectmatris/antimalwareapp]
+
