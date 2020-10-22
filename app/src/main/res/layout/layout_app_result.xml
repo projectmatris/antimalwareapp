@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="2dp"
+    android:layout_marginBottom="2dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/app_background">
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingHorizontal="2dp"
+        android:paddingVertical="2dp"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/name"
+        android:textColor="@color/secondaryTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
