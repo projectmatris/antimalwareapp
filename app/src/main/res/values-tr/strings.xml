@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LibreAV - Anti-malware for Android using machine learning
+  ~ Copyright (C) 2020 Project Matris
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+    <string name="app_name">LibreAV</string>
+    <string name="navigation_drawer_open">Gezinti çekmecesini aç</string>
+    <string name="navigation_drawer_close">Gezinti çekmecesini kapat</string>
+    <string name="scan">Tara</string>
+    <string name="scanningApplications">Taranan Uygulamalar</string>
+    <string name="appIcon">Uygulama simgesi</string>
+    <string name="stop">DURDUR</string>
+    <string name="project_version">v1.0</string>
+    <string name="settings">Ayarlar</string>
+    <string name="help">Yardım</string>
+    <string name="about">Hakkında</string>
+    <string name="report_a_bug">Hata bildir</string>
+    <string name="share">Paylaş</string>
+    <string name="help_goodware">Güvenli: Tahmin puanı 0,5\'ten az.</string>
+    <string name="help_malware">Kötücül: Tahmin puanı 0,75\'ten büyük.</string>
+    <string name="help_risky">Riskli: Tahmin puanı 0,5 ile 0,75 arasında.</string>
+    <string name="help_unknown">Bilinmiyen: Uygulamanın türünü belirleyemiyoruz.</string>
+    <string name="uninstall">Kaldır</string>
+    <string name="sysapps_alert"><u>Not:</u> Sistem uygulamalarını tarama özelliği yalnızca deneysel olarak dahil edilmiştir. Çok yanlış pozitif gösterebileceği için etkinleştirmenizi önermiyoruz.</string>
+    <string name="emptystring"></string>
+    <string name="percent_start">%0</string>
+    <string name="real_time_scan_desc">Gerçek Zamanlı Tarama, kötü amaçlı yazılımdan koruma uygulamasının cihazdaki yeni uygulama kurulumlarını algılamasını ve taramasını sağlayan bir özelliktir. Etkinleştirilirse, kötü amaçlı yazılımdan koruma uygulaması yeni yüklenen uygulamaları otomatik olarak tarayabilir. Bu özelliği ayarlardan etkinleştirebilir/devre dışı bırakabilirsiniz. Bu özellik varsayılan olarak etkindir.</string>
+    <string name="how_it_works_desc">LibreAV, kötü amaçlı uygulamaları tespit etmek için izinleri ve amaç filtrelerini kullanır. Tarama sırasında, makine öğrenimi modelini yükler ve cihazınızda yüklü uygulamalardan izinleri ve amaçları alır. Çıkarılan bu özelliklerle daha sonra vektör biçiminde makine öğrenimi modeline beslenir. Makine öğrenimi modeli, taranan uygulamanın kötü niyetli olma derecesini belirten 0 ile 1 arasında bir tahmin puanı döndürür. Bu puanı, taranan uygulamayı aşağıdaki kategorilerden birinde sınıflandırmak için kullanırız:</string>
+    <string name="project_description">LibreAV, makine öğrenimi yaklaşımını kullanarak Android cihazlarda kötü amaçlı yazılımları tespit etme girişimidir.</string>
+    <string name="what_is_libreav">* LibreAV nedir?</string>
+    <string name="what_is_real_time_scan">* Gerçek Zamanlı Tarama nedir?</string>
+    <string name="how_it_works">* Nasıl çalışır?</string>
+    <string name="what_is_scan_system_apps_feature">* Sistem Uygulamalarını Tarama özelliği ne anlama geliyor?</string>
+    <string name="scan_system_apps_desc">Sistem uygulamalarını tara, kötü amaçlı yazılımdan koruma uygulamasına sistem uygulamalarını da analiz etmesini söyleyen bir özelliktir. Bu özelliği ayarlardan etkinleştirebilir/devre dışı bırakabilirsiniz. Bu özellik varsayılan olarak devre dışı bırakılmıştır.</string>
+    <string name="logo">Logo</string>
+    <string name="iconDescription">Simge</string>
+    <string name="permission_list">İzin Listesi</string>
+    <string name="app_details">UYGULAMA DETAYLARI</string>
+    <string name="scanning">TARANIYIR</string>
+    <string name="report">RAPOR ET</string>
+    <string name="no_permissions_required">Hiç bir izin istemiyor!</string>
+    <string name="prediction_score">Tahmin Puanı:</string>
+    <string name="malware">Kötü Amaçlı</string>
+    <string name="safe">Güvenli</string>
+    <string name="risky">Şüpheli</string>
+    <string name="unknown">Bilinmiyor</string>
+    <string name="scan_now">ŞİMDİ TARA</string>
+    <string name="settings_title">AYARLAR</string>
+    <string name="help_title">YARDIM</string>
+    <string name="app_settings">Uygulama Ayarları</string>
+    <string name="real_time_scan">Gerçek Zamanlı Tarama</string>
+    <string name="real_time_scan_summary">Yeni yüklenen uygulamaları otomatik olarak tara</string>
+    <string name="scan_system_apps">Sistem Uygulamalarını Tara (Hataya yatkın)</string>
+    <string name="scan_system_apps_summary">Taramaya sistem uygulamalarını dahil et \n(Önerilmez)</string>
+    <string name="dark_mode">Karanlık Mod</string>
+    <string name="dark_mode_summary">Uygulama için karanlık modu etkinleştirin/devre dışı bırakın</string>
+    <string name="help_and_support">Yardım &amp; Destek</string>
+    <string name="rate_this_app">Uygulamayı değerlendir</string>
+    <string name="rate_this_app_summary">Geri bildirimde bulun</string>
+    <string name="open_source_libraries">Açık Kaynak kütüphaneler</string>
+    <string name="open_source_libraries_summary">Açık Kaynak kütüphaneleri göster</string>
+    <string name="app_version_text">Uygulama Sürümü</string>
+    <string name="system_app">Sistem Uygulaması</string>
+    <string name="uninstall_successful">Başarıyla Kaldırıldı!</string>
+    <string name="last_scan">Son Tarama:</string>
+    <string name="never">Hiç Taranmadı</string>
+    <string name="scan_system_apps_toast">Taramaya sistem uygulamaları dahil edilecek</string>
+    <string name="dark_mode_enabled_toast">Koyu Mod Etkinleştirildi</string>
+    <string name="dark_mode_disabled_toast">Koyu Mod Devre Dışı Bırakıldı</string>
+    <string name="real_time_scan_on">Gerçek Zamanlı Tarama Açık</string>
+    <string name="is">\u0020is\u0020</string>
+    <string name="permission_info">İzin Bilgisi</string>
+    <string name="no_description_found">Açıklama bulunamadı</string>
+    <string name="notice">⚠️⚠️ LİBREAV\'IN HALA GELİŞİMİN ERKEN AŞAMALARINDA OLDUĞUNU VE TAHMİNİNDE BİRÇOK YANLIŞ POZİTİF İÇEREBİLECEĞİNİ LÜTFEN UNUTMAYIN. BU PROJE YALNIZCA EĞİTİM AMAÇLI GELİŞTİRİLMİŞTİR VE LIBREAV TARAFINDAN ÜRETİLEN ÇIKTININ KESİNLİKLE DOĞRU OLDUĞUNU GARANTİ EDEMEYİZ. LÜTFEN DİĞER UYGULAMALARI YALNIZCA LIBREAV ÇIKTISINI KULLANARAK DEĞERLENDİRMEYİN.⚠️⚠️</string>
+    <string name="scan_apk">APK Tara</string>
+    <string name="permission_denied_message">Dosya listesine erşebilmek için izin gerekli</string>
+    <string name="select_a_file">Dosya seç</string>
+    <string name="file_does_not_exist">Dosya bulunamadı</string>
+    <string name="error_loading_file">Dosya yüklenirken hata oluştu</string>
+</resources>

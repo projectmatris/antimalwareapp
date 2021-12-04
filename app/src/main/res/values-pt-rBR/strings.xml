@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LibreAV - Anti-malware for Android using machine learning
+  ~ Copyright (C) 2020 Project Matris
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+    <string name="app_name">LibreAV</string>
+    <string name="navigation_drawer_open">Abra o painel de navegação</string>
+    <string name="navigation_drawer_close">Fechar o painel de navegação</string>
+    <string name="scan">Verificar</string>
+    <string name="scanningApplications">Verificando aplicativos</string>
+    <string name="appIcon">Ícone do aplicativo</string>
+    <string name="stop">PARE</string>
+    <string name="project_version">v1.0</string>
+    <string name="settings">Configurações</string>
+    <string name="help">Ajuda</string>
+    <string name="about">Sobre</string>
+    <string name="report_a_bug">Relate um erro</string>
+    <string name="share">Compartilhar</string>
+    <string name="help_goodware">Seguro: A pontuação da previsão é inferior a 0,5.</string>
+    <string name="help_malware">Malware: A pontuação da previsão é maior a 0,75.</string>
+    <string name="help_risky">Risco: A pontuação da previsão está entre 0,5 e 0,75.</string>
+    <string name="help_unknown">Desconhecido: Não podemos determinar o tipo da aplicação.</string>
+    <string name="uninstall">Desinstalar</string>
+    <string name="sysapps_alert"><u>Nota:</u> O recurso de verificação de aplicativos do sistema está incluído apenas para fins experimentais. Realmente não recomendamos ativá-lo, pois pode mostrar muitos falsos positivos.</string>
+    <string name="emptystring"></string>
+    <string name="percent_start">0%</string>
+    <string name="real_time_scan_desc">A Varredura em tempo real é um recurso que permite que o aplicativo anti-vírus detecte novas instalações de aplicativos no dispositivo e faça a varredura. Se ativado, o aplicativo anti-vírus pode verificar automaticamente os aplicativos recém-instalados. Você pode ativar/desativar esse recurso nas configurações. Este recurso está habilitado por padrão.</string>
+    <string name="how_it_works_desc">O LibreAV usa permissões e filtros de intenção para detectar aplicativos maliciosos. Durante a verificação, ele carrega o modelo de aprendizado de máquina e extrai permissões e intenções dos aplicativos instalados em seu dispositivo. Esses recursos extraídos são alimentados para o modelo de aprendizado de máquina na forma de um vetor. O modelo de aprendizado de máquina retorna uma pontuação de previsão entre 0 e 1 que denotam o grau de malícia do aplicativo escaneado. Usamos esta pontuação para classificar o aplicativo escaneado em uma das seguintes categorias:</string>
+    <string name="project_description">LibreAV é uma tentativa de detectar malwares em dispositivos Android utilizando a abordagem de aprendizado de máquina.</string>
+    <string name="what_is_libreav">* O que é LibreAV?</string>
+    <string name="what_is_real_time_scan">* O que é uma Verificação em Tempo Real?</string>
+    <string name="how_it_works">* Como isso funciona?</string>
+    <string name="what_is_scan_system_apps_feature">O que significa verificar aplicativos do sistema?</string>
+    <string name="scan_system_apps_desc">Verificar aplicativos do sistema é um recurso que instrui o aplicativo anti-malware a analisar também os aplicativos do sistema. Você pode ativar/desativar esse recurso nas configurações. Este recurso está desabilitado por padrão.</string>
+    <string name="logo">Logotipo</string>
+    <string name="iconDescription">Ícone</string>
+    <string name="permission_list">Lista de permissões</string>
+    <string name="app_details">DETALHES DO APLICATIVO</string>
+    <string name="scanning">ESCANEANDO</string>
+    <string name="report">REPORTAR</string>
+    <string name="no_permissions_required">Nenhuma permissão necessária!</string>
+    <string name="prediction_score">Pontuação de previsão:</string>
+    <string name="malware">Malware</string>
+    <string name="safe">Seguro</string>
+    <string name="risky">Arriscado</string>
+    <string name="unknown">Desconhecido</string>
+    <string name="scan_now">ESCANEAR</string>
+    <string name="settings_title">AJUSTES</string>
+    <string name="help_title">AJUDA</string>
+    <string name="app_settings">Configurações do aplicativo</string>
+    <string name="real_time_scan">Verificação em tempo real</string>
+    <string name="real_time_scan_summary">Verificar automaticamente novos aplicativos</string>
+    <string name="scan_system_apps">Escanear aplicativos do sistema (Sujeito a erros)</string>
+    <string name="scan_system_apps_summary">Incluir aplicativos do sistema durante a verificação \n(Não recomendado)</string>
+    <string name="dark_mode">Modo escuro</string>
+    <string name="dark_mode_summary">Ativar/desativar o modo escuro para o aplicativo</string>
+    <string name="help_and_support">Ajuda &amp; Suporte</string>
+    <string name="rate_this_app">Avalie este aplicativo</string>
+    <string name="rate_this_app_summary">Dê-nos a sua opinião</string>
+    <string name="open_source_libraries">Bibliotecas de código aberto</string>
+    <string name="open_source_libraries_summary">Visualizar bibliotecas de código aberto</string>
+    <string name="app_version_text">Versão do aplicativo</string>
+    <string name="system_app">Aplicativo do sistema</string>
+    <string name="uninstall_successful">Desinstalação bem sucedida!</string>
+    <string name="last_scan">Última verificação:</string>
+    <string name="never">Nunca</string>
+    <string name="scan_system_apps_toast">Os aplicativos do sistema serão incluídos durante a verificação</string>
+    <string name="dark_mode_enabled_toast">Modo escuro está ativado</string>
+    <string name="dark_mode_disabled_toast">Modo escuro está desativado</string>
+    <string name="real_time_scan_on">Verificação em tempo real ativada</string>
+    <string name="is">\u0020é\u0020</string>
+    <string name="permission_info">Informações de permissão</string>
+    <string name="no_description_found">Nenhuma descrição encontrada</string>
+    <string name="notice">⚠️⚠️ ESTEJA CIENTE DE QUE O LIBREAV AINDA ESTÁ EM SEUS ESTÁGIOS INICIAIS DE DESENVOLVIMENTO E PODE CONTER MUITOS FALSOS POSITIVOS NA VERIFICAÇÃO. ESTE PROJETO FOI DESENVOLVIDO APENAS PARA FINS EDUCACIONAIS E NÃO GARANTIMOS QUE O RESULTADO MOSTRADO PELO LIBREAV ESTÁ ABSOLUTAMENTE CORRETO. PORTANTO, NÃO JULGUE OUTROS APLICATIVOS USANDO O RESULTADO DO LIBREAV SOZINHO. ⚠️⚠️</string>
+    <string name="scan_apk">Verificar APK</string>
+    <string name="permission_denied_message">A permissão é necessária para obter a lista de arquivos</string>
+    <string name="select_a_file">Selecione um arquivo</string>
+    <string name="file_does_not_exist">O arquivo não existe</string>
+    <string name="error_loading_file">Erro ao carregar arquivo</string>
+</resources>
